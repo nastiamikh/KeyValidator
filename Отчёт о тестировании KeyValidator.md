@@ -1,19 +1,19 @@
 # Отчёт о тестировании "KeyValidator"
 ## Краткое описание
-08.05.2020  было проведено <перечисление видов тестирование> приложения "KeyValidator".
+09.05.2020  было проведено функциональное тестирование приложения "KeyValidator".
 
-На тестирование затрачено: <время в часах>
+На тестирование затрачен 1 час.
 
 В результате тестирования выявлены следующие дефекты:
 
-- 
-- 
+- [Признание валидных ключей невалидными](https://github.com/nastiamikh/KeyValidator/issues/1)
+- [Признание невалидного ключа валидным](https://github.com/nastiamikh/KeyValidator/issues/2)
 
 # Описание процесса тестирования
 В процессе тестирования использовались следующие артефакты:
 [Руководство использования KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md)
 
-В качестве тестовых данных использовались данные из [Руководства использования KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md):
+В качестве тестовых данных использовались данные из [Руководства использования KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md). Ожидаемые результаты:
 
 - Приложение запускается и совместимо с Java 11
 - 8f05e6a7-70e9-33d7-bfe7-b19eae0d8998 - валидный ключ
